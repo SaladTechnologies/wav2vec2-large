@@ -15,6 +15,7 @@ docker buildx build -t saladtechnologies/wav2vec2-large:latest \
 ```bash
 docker run \
 -p 1111:1111 \
+--gpus all \
 docker.io/saladtechnologies/wav2vec2-large:latest
 ```
 

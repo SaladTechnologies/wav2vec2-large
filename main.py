@@ -35,4 +35,5 @@ async def transcribe(request: Request):
 
 
 if __name__ == "__main__":
+    print(f"Running {model_id} on {device}")
     uvicorn.run(app, host=host, port=port)
