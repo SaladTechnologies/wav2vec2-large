@@ -24,9 +24,9 @@ docker.io/saladtechnologies/wave2vec2-large:latest
 curl  -X POST \
   'http://localhost:1111/transcribe' \
   --header 'Content-Type: application/octet-stream' \
-  --data-binary '@/home/shawn/code/SaladTechnologies/wave2vec2-large/Recording.wav'
+  --data-binary '@/home/shawn/code/SaladTechnologies/wave2vec2-large/Recording.mp3'
 ```
 
 ```json
-{"text":"lthe whisper-large infranc server is functioning as intended","inference_time":1.1895841190125793}
+{"text":"wavetevec to infancs server is working as intended","inference_time":1.0019206859869882}
 ```
