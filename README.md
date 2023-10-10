@@ -29,5 +29,5 @@ curl  -X POST \
 ```
 
 ```json
-{"text":"wavetevec to infancs server is working as intended","inference_time":1.0019206859869882}
+{"text":"wavetevec to infancs server is working as intended","inference_time":0.18015432398533449}
 ```
