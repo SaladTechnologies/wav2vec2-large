@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime
+FROM python:3.10-slim
 
 ARG MODEL_ID=jonatasgrosman/wav2vec2-large-xlsr-53-english
 ENV MODEL_ID=$MODEL_ID
