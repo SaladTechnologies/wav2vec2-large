@@ -5,9 +5,9 @@ ENV MODEL_ID=$MODEL_ID
 
 # Install dependencies
 COPY requirements.txt .
-
 RUN pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu116
 
+# Download the model
 RUN python -c "from huggingsound import SpeechRecognitionModel; model = SpeechRecognitionModel('$MODEL_ID')"
 
 # Copy the code
